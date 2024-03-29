@@ -11,3 +11,62 @@
 [TRACE] 2024-03-29 11:03:49,455 com.targetindia.miniproject.ui.Main user made a choice 1
 [TRACE] 2024-03-29 11:04:02,793 com.targetindia.miniproject.ui.Main user made a choice 6
 [TRACE] 2024-03-29 11:04:20,572 com.targetindia.miniproject.ui.Main user made a choice 4
+[TRACE] 2024-03-29 13:45:12,795 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 13:45:55,903 com.targetindia.miniproject.ui.Main user made a choice 1
+[ WARN] 2024-03-29 13:45:56,755 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 13:52:44,191 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 13:53:18,938 com.targetindia.miniproject.ui.Main user made a choice 6
+[ WARN] 2024-03-29 13:53:22,046 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 13:53:32,357 com.targetindia.miniproject.ui.Main user made a choice 1
+[TRACE] 2024-03-29 13:56:05,140 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 13:56:09,309 com.targetindia.miniproject.ui.Main user made a choice 1
+[TRACE] 2024-03-29 14:21:51,508 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 14:21:55,121 com.targetindia.miniproject.ui.Main user made a choice 1
+[TRACE] 2024-03-29 14:22:59,186 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 14:23:35,743 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 14:23:44,273 com.targetindia.miniproject.ui.Main user made a choice 1
+[ WARN] 2024-03-29 14:23:44,901 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[ WARN] 2024-03-29 14:59:45,692 com.targetindia.miniproject.ui.Main There wan error while accepting the menu choice
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at com.targetindia.miniproject.utils.KeyboardUtil.getInt(KeyboardUtil.java:10)
+	at com.targetindia.miniproject.ui.Main.menu(Main.java:38)
+	at com.targetindia.miniproject.ui.Main.start(Main.java:49)
+	at com.targetindia.miniproject.ui.Main.main(Main.java:195)
+[TRACE] 2024-03-29 14:59:45,695 com.targetindia.miniproject.ui.Main user made a choice -1
+[TRACE] 2024-03-29 14:59:50,009 com.targetindia.miniproject.ui.Main user made a choice 2
+[TRACE] 2024-03-29 15:00:24,078 com.targetindia.miniproject.ui.Main user made a choice 2
+[TRACE] 2024-03-29 15:00:54,943 com.targetindia.miniproject.ui.Main user made a choice 3
+[TRACE] 2024-03-29 15:01:03,687 com.targetindia.miniproject.ui.Main user made a choice 4
+[TRACE] 2024-03-29 15:02:36,757 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 15:02:39,342 com.targetindia.miniproject.ui.Main user made a choice 1
+[ WARN] 2024-03-29 15:02:39,951 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 15:02:54,929 com.targetindia.miniproject.ui.Main user made a choice 6
+[TRACE] 2024-03-29 15:03:22,644 com.targetindia.miniproject.ui.Main user made a choice 5
+[TRACE] 2024-03-29 15:05:04,935 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 15:05:13,833 com.targetindia.miniproject.ui.Main user made a choice 4
+[ WARN] 2024-03-29 15:05:22,316 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 15:05:33,976 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 15:05:41,630 com.targetindia.miniproject.ui.Main user made a choice 1
+[ WARN] 2024-03-29 15:05:42,235 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 15:06:17,379 com.targetindia.miniproject.ui.Main user made a choice 3
+[TRACE] 2024-03-29 15:06:26,317 com.targetindia.miniproject.ui.Main user made a choice 6
+[TRACE] 2024-03-29 15:06:34,295 com.targetindia.miniproject.ui.Main user made a choice 4
+[TRACE] 2024-03-29 15:06:57,857 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 15:07:03,177 com.targetindia.miniproject.ui.Main user made a choice 5
+[ WARN] 2024-03-29 15:07:09,782 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 15:10:44,920 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 15:10:50,389 com.targetindia.miniproject.ui.Main user made a choice 1
+[ WARN] 2024-03-29 15:10:51,041 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 15:10:57,442 com.targetindia.miniproject.ui.Main user made a choice 4
+[TRACE] 2024-03-29 15:11:11,255 com.targetindia.miniproject.ui.Main user made a choice 5
+[TRACE] 2024-03-29 15:11:29,830 com.targetindia.miniproject.ui.Main user made a choice 2
+[TRACE] 2024-03-29 15:12:05,515 com.targetindia.miniproject.ui.Main user made a choice 6
+[TRACE] 2024-03-29 15:12:19,502 com.targetindia.miniproject.ui.Main user made a choice 1
+[TRACE] 2024-03-29 15:16:04,204 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 15:16:08,518 com.targetindia.miniproject.ui.Main user made a choice 1
+[ WARN] 2024-03-29 15:16:09,099 org.hibernate.orm.connections.pooling HHH10001002: Using built-in connection pool (not intended for production use)
+[TRACE] 2024-03-29 15:17:32,005 com.targetindia.miniproject.ui.Main user made a choice 3

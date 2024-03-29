@@ -3,6 +3,7 @@ package com.targetindia.miniproject.dao;
 import com.targetindia.miniproject.model.Customer;
 import com.targetindia.miniproject.utils.JpaUtil;
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.persistence.NoResultException;
 import jakarta.persistence.TypedQuery;
 import lombok.extern.slf4j.Slf4j;
 
@@ -72,49 +73,34 @@ public class JpaCustomerDao implements CustomerDao {
         }
     }
 
-    @Override
     public Customer getByEmail(String email) throws DaoException {
         try (var em = JpaUtil.createEntityManager()) {
-            var tx = em.getTransaction();
-            tx.begin();
-            try {
-                var c = em.find(Customer.class, email);
-                if (c != null) {
-                    tx.commit();
-                    return c;
-                } else {
-                    throw new EntityNotFoundException("Customer with email " + email + " not found");
-                }
-            } catch (Exception e) {
-                tx.rollback();
-                throw new DaoException(e);
-            }
+
+            var c1 = em.createQuery("SELECT c FROM Customer c WHERE c.email = :email", Customer.class)
+                    .setParameter("email", email)
+                    .getSingleResult();
+            return c1;
+        } catch (NoResultException e) {
+            throw new EntityNotFoundException("Customer with email " + email + " not found");
         } catch (Exception e) {
-            throw new DaoException(e);
+            throw new DaoException("Error fetching customer by email", e);
         }
     }
 
     @Override
     public Customer getByPhone(String phone) throws DaoException {
         try (var em = JpaUtil.createEntityManager()) {
-            var tx = em.getTransaction();
-            tx.begin();
-            try {
-                var c = em.find(Customer.class, phone);
-                if (c != null) {
-                    tx.commit();
-                    return c;
-                } else {
-                    throw new EntityNotFoundException("Customer with phone number " + phone + " not found");
-                }
-            } catch (Exception e) {
-                tx.rollback();
-                throw new DaoException(e);
-            }
+            var c1= em.createQuery("SELECT c FROM Customer c WHERE c.phone = :phone", Customer.class)
+                    .setParameter("phone", phone)
+                    .getSingleResult();
+            return c1;
+        } catch (NoResultException e) {
+            throw new EntityNotFoundException("Customer with phone number " + phone + " not found");
         } catch (Exception e) {
-            throw new DaoException(e);
+            throw new DaoException("Error fetching customer by phone", e);
         }
     }
+
 
     @Override
 
