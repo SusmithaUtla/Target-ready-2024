@@ -1,0 +1,13 @@
+[TRACE] 2024-03-29 10:13:29,364 Main starting the app...
+[TRACE] 2024-03-29 10:13:39,967 Main user made a choice 1
+[TRACE] 2024-03-29 10:14:04,179 Main user made a choice 3
+[TRACE] 2024-03-29 10:41:55,816 Main starting the app...
+[TRACE] 2024-03-29 10:42:00,919 Main user made a choice 3
+[TRACE] 2024-03-29 10:42:25,905 Main user made a choice 3
+[TRACE] 2024-03-29 11:03:10,375 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 11:03:16,224 com.targetindia.miniproject.ui.Main user made a choice 1
+[TRACE] 2024-03-29 11:03:20,124 com.targetindia.miniproject.ui.Main starting the app...
+[TRACE] 2024-03-29 11:03:28,278 com.targetindia.miniproject.ui.Main user made a choice 6
+[TRACE] 2024-03-29 11:03:49,455 com.targetindia.miniproject.ui.Main user made a choice 1
+[TRACE] 2024-03-29 11:04:02,793 com.targetindia.miniproject.ui.Main user made a choice 6
+[TRACE] 2024-03-29 11:04:20,572 com.targetindia.miniproject.ui.Main user made a choice 4
